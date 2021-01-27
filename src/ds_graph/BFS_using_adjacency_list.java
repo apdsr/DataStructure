@@ -5,7 +5,7 @@ class Graph{
 	boolean visited[];
 	Graph(int node){
 		graph=new ArrayList<>();
-	    visited=new boolean[node];
+	    visited =new boolean[node];
 	    for (int i = 0; i <node; i++) {
 			graph.add(i,new ArrayList<>());
 		}
